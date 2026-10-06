@@ -1,0 +1,37 @@
+name: Static QA
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate JavaScript
+        run: |
+          node --check core.js
+          node --check app.js
+      - name: Run core tests
+        run: node --test tests/core.test.cjs
+      - name: Check product files
+        run: |
+          test -f index.html
+          test -f style.css
+          test -f DATA_CONTRACT.md
+          test -f FULLSTACK.md
+          grep -qi '<title' index.html
+          grep -qi 'meta name="viewport"' index.html
+          grep -qi 'DADOS DEMONSTRATIVOS' index.html
+          grep -qi 'compareMatches' core.js
+          grep -qi 'localStorage' app.js
+          grep -qi 'grade 4x7' FULLSTACK.md
