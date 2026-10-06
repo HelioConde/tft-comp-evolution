@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0d1117">
+  <meta name="description" content="Compare partidas de TFT e entenda como suas composições evoluem entre jogos e patches.">
+  <meta property="og:title" content="TFT Comp Evolution">
+  <meta property="og:description" content="Visualize como sua composição, traits, itens e posicionamento mudam entre partidas.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://helioconde.github.io/tft-comp-evolution/">
+  <link rel="canonical" href="https://helioconde.github.io/tft-comp-evolution/">
+  <title>TFT Comp Evolution — evolução das suas comps</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="./">TFT <span>Comp Evolution</span></a>
+      <div class="top-actions">
+        <span class="demo-badge">DADOS DEMONSTRATIVOS</span>
+        <button class="ghost" id="open-import" type="button">Importar partidas</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">TFT-FIRST · EVOLUÇÃO PESSOAL</p>
+          <h1>Veja como sua comp <span>muda de verdade.</span></h1>
+          <p>Compare composição final, posicionamento, traits, itens e resultado entre partidas. O foco não é dizer qual comp está no meta — é mostrar como <strong>você</strong> está adaptando suas decisões.</p>
+        </div>
+        <aside class="hero-card">
+          <div class="profile-orb">CE</div>
+          <div>
+            <span>Perfil demonstrativo</span>
+            <strong>Comp Explorer</strong>
+            <small>8 partidas · 3 arquétipos</small>
+          </div>
+        </aside>
+      </section>
+
+      <section class="stats" aria-label="Resumo">
+        <article><span>Colocação média</span><strong id="stat-average">—</strong><small>no filtro atual</small></article>
+        <article><span>Top 4</span><strong id="stat-top4">—</strong><small>consistência</small></article>
+        <article><span>Comps diferentes</span><strong id="stat-comps">—</strong><small>flexibilidade</small></article>
+        <article><span>Partidas</span><strong id="stat-games">—</strong><small>analisadas</small></article>
+      </section>
+
+      <section class="toolbar panel">
+        <div>
+          <p class="eyebrow">RECORTE</p>
+          <h2>Escolha o que quer analisar</h2>
+        </div>
+        <div class="filters">
+          <label><span>Patch</span><select id="patch-filter"><option value="all">Todos</option></select></label>
+          <label><span>Composição</span><select id="comp-filter"><option value="all">Todas</option></select></label>
+          <button class="ghost" id="reset-data" type="button">Restaurar demo</button>
+        </div>
+      </section>
+
+      <section class="section-grid">
+        <section class="panel">
+          <div class="section-head">
+            <div><p class="eyebrow">EVOLUÇÃO</p><h2>Seu histórico de comps</h2></div>
+            <span id="timeline-count" class="muted"></span>
+          </div>
+          <div id="timeline" class="timeline"></div>
+        </section>
+
+        <aside class="panel evolution-panel">
+          <div class="section-head">
+            <div><p class="eyebrow">PADRÕES</p><h2>Arquétipos mais usados</h2></div>
+          </div>
+          <div id="evolution-list" class="evolution-list"></div>
+        </aside>
+      </section>
+
+      <section class="panel compare-panel">
+        <div class="section-head compare-head">
+          <div>
+            <p class="eyebrow">COMPARAÇÃO DIRETA</p>
+            <h2>O que você mudou de uma partida para outra?</h2>
+          </div>
+          <div class="compare-selects">
+            <label><span>Partida A</span><select id="compare-a"></select></label>
+            <span class="versus">VS</span>
+            <label><span>Partida B</span><select id="compare-b"></select></label>
+          </div>
+        </div>
+        <div id="comparison" class="comparison"></div>
+      </section>
+
+      <section class="panel import-panel" id="import-panel" hidden>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">IMPORTAÇÃO LOCAL</p>
+            <h2>Teste com suas próprias partidas</h2>
+            <p class="muted">Cole um array JSON seguindo o contrato do projeto. Os dados ficam apenas neste navegador.</p>
+          </div>
+          <button class="icon-button" id="close-import" type="button" aria-label="Fechar">×</button>
+        </div>
+        <textarea id="import-json" spellcheck="false" placeholder='[{"id":"match-1","patch":"Patch A",...}]'></textarea>
+        <div class="import-actions">
+          <button class="primary" id="apply-import" type="button">Validar e usar dados</button>
+          <a class="ghost link-button" href="DATA_CONTRACT.md" target="_blank" rel="noopener">Ver contrato JSON</a>
+        </div>
+        <p id="import-message" class="import-message" role="status"></p>
+      </section>
+
+      <section class="about">
+        <div>
+          <p class="eyebrow">POR QUE EXISTE</p>
+          <h2>Meta mostra o que funciona para todos. Aqui você vê o que funciona para você.</h2>
+        </div>
+        <p>O MVP prioriza comparação pessoal e leitura visual. Quando o banco de jogos estiver conectado, o mesmo contrato pode receber partidas reais sem mudar a experiência principal.</p>
+      </section>
+    </main>
+
+    <footer>
+      <strong>TFT Comp Evolution</strong>
+      <span>Projeto independente e não afiliado à Riot Games. Dados demonstrativos não representam o meta atual.</span>
+    </footer>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
