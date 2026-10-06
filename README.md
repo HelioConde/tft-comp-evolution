@@ -1,34 +1,54 @@
 # TFT Comp Evolution
 
-**Area:** TFT
-**Priority:** P2
-**Queue position:** #22
+Produto TFT-first para entender **como as composições de um jogador evoluem entre partidas e patches**.
 
-Mostra a evolucao pessoal de comps entre partidas e patches.
+**Area:** TFT  
+**Priority:** P2  
+**Queue position original:** #22
 
-## Status
+## Estado atual
 
-Idea registered in the **Ideias IA Lab** portfolio. This repository is the independent workspace for research, prototype and product development.
+MVP funcional iniciado em 06/10/2026.
 
-## First-version goal
+- histórico visual de partidas;
+- filtros por patch e composição;
+- colocação média e taxa de Top 4;
+- agrupamento por arquétipo;
+- tabuleiro TFT 4x7;
+- comparação direta entre duas partidas;
+- similaridade de unidades e traits;
+- leitura rápida das mudanças;
+- importação de partidas por JSON;
+- persistência local;
+- dataset demonstrativo claramente identificado;
+- testes automatizados do núcleo;
+- CI com Static QA.
 
-Build the smallest usable MVP that validates the central product idea before increasing scope.
+## Dados
 
-## Minimum criteria before expanding
+O MVP não usa o banco geral dos projetos.
 
-- usable MVP;
-- main flow working;
-- usable on mobile;
-- authentication/data when needed;
-- QA for critical flows;
-- updated README;
-- working deploy;
-- explicit V2 backlog.
+O destino correto é o banco gamer `zerotwo`. Como ele não está disponível no conector Supabase atual, esta etapa não grava dados em outro banco como fallback.
 
-## Organization
+Veja `DATA_CONTRACT.md` para o contrato que permitirá ligar partidas reais sem reescrever a interface.
 
-Portfolio priority and decisions remain centralized at:
+## Rodar localmente
+
+Sirva os arquivos com qualquer servidor HTTP estático e abra `index.html`.
+
+## Próxima versão
+
+- conectar partidas reais pós-jogo;
+- autenticação compartilhada com os produtos gamer;
+- assets reais de unidades/itens/augments;
+- comparação de itemização e augments;
+- evolução por patch com mais partidas;
+- link compartilhável de comparação.
+
+## Organização
+
+Prioridades gerais continuam centralizadas em:
 
 https://github.com/HelioConde/ideias-ia-lab
 
-Product code must stay in this repository, not in the Lab.
+Este repositório contém apenas o produto TFT Comp Evolution.
