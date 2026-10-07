@@ -40,3 +40,15 @@ select,.ghost,.primary{min-height:40px}
   .match-card{grid-template-columns:48px 1fr}
   .boards{gap:8px}
 }
+
+
+/* Visual audit follow-up — 07/10/2026 */
+.brand{
+  display:inline-flex;
+  align-items:center;
+  min-height:44px;
+}
+.eyebrow,label>span,.patch-tag,.trait{font-size:10px}
+@media(max-width:640px){
+  .brand{min-height:40px}
+}
