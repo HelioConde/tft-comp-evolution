@@ -1,0 +1,302 @@
+{
+  "generatedAt": "2026-10-07T06:48:50.179Z",
+  "baseUrl": "http://127.0.0.1:4173/",
+  "captures": [
+    {
+      "name": "desktop-full.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "title": "TFT Comp Evolution — evolução das suas comps",
+      "width": 1440,
+      "height": 2420,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "overflow": [],
+      "smallTapTargets": [
+        {
+          "tag": "a",
+          "id": "",
+          "className": "brand",
+          "width": 172,
+          "height": 23,
+          "text": "TFT Comp Evolution"
+        }
+      ],
+      "tinyText": [
+        {
+          "text": "DADOS DEMONSTRATIVOS",
+          "fontSize": 9
+        },
+        {
+          "text": "TFT-FIRST · EVOLUÇÃO PESSOAL",
+          "fontSize": 9
+        },
+        {
+          "text": "RECORTE",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch",
+          "fontSize": 9
+        },
+        {
+          "text": "Composição",
+          "fontSize": 9
+        },
+        {
+          "text": "EVOLUÇÃO",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch C",
+          "fontSize": 9
+        },
+        {
+          "text": "Feiticeiro",
+          "fontSize": 9
+        },
+        {
+          "text": "Guardião",
+          "fontSize": 9
+        },
+        {
+          "text": "Místico",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch C",
+          "fontSize": 9
+        },
+        {
+          "text": "Feiticeiro",
+          "fontSize": 9
+        },
+        {
+          "text": "Guardião",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch C",
+          "fontSize": 9
+        },
+        {
+          "text": "Atirador",
+          "fontSize": 9
+        },
+        {
+          "text": "Brutamontes",
+          "fontSize": 9
+        },
+        {
+          "text": "Sentinela",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch B",
+          "fontSize": 9
+        },
+        {
+          "text": "Atirador",
+          "fontSize": 9
+        },
+        {
+          "text": "Brutamontes",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch B",
+          "fontSize": 9
+        },
+        {
+          "text": "Guardião",
+          "fontSize": 9
+        },
+        {
+          "text": "Duelista",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch B",
+          "fontSize": 9
+        },
+        {
+          "text": "Feiticeiro",
+          "fontSize": 9
+        },
+        {
+          "text": "Místico",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch A",
+          "fontSize": 9
+        },
+        {
+          "text": "Guardião",
+          "fontSize": 9
+        },
+        {
+          "text": "Duelista",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch A",
+          "fontSize": 9
+        }
+      ],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "name": "mobile-full.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "TFT Comp Evolution — evolução das suas comps",
+      "width": 390,
+      "height": 4195,
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "overflow": [],
+      "smallTapTargets": [
+        {
+          "tag": "a",
+          "id": "",
+          "className": "brand",
+          "width": 143,
+          "height": 19,
+          "text": "TFT Comp Evolution"
+        }
+      ],
+      "tinyText": [
+        {
+          "text": "TFT-FIRST · EVOLUÇÃO PESSOAL",
+          "fontSize": 9
+        },
+        {
+          "text": "RECORTE",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch",
+          "fontSize": 9
+        },
+        {
+          "text": "Composição",
+          "fontSize": 9
+        },
+        {
+          "text": "EVOLUÇÃO",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch C",
+          "fontSize": 9
+        },
+        {
+          "text": "Feiticeiro",
+          "fontSize": 9
+        },
+        {
+          "text": "Guardião",
+          "fontSize": 9
+        },
+        {
+          "text": "Místico",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch C",
+          "fontSize": 9
+        },
+        {
+          "text": "Feiticeiro",
+          "fontSize": 9
+        },
+        {
+          "text": "Guardião",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch C",
+          "fontSize": 9
+        },
+        {
+          "text": "Atirador",
+          "fontSize": 9
+        },
+        {
+          "text": "Brutamontes",
+          "fontSize": 9
+        },
+        {
+          "text": "Sentinela",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch B",
+          "fontSize": 9
+        },
+        {
+          "text": "Atirador",
+          "fontSize": 9
+        },
+        {
+          "text": "Brutamontes",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch B",
+          "fontSize": 9
+        },
+        {
+          "text": "Guardião",
+          "fontSize": 9
+        },
+        {
+          "text": "Duelista",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch B",
+          "fontSize": 9
+        },
+        {
+          "text": "Feiticeiro",
+          "fontSize": 9
+        },
+        {
+          "text": "Místico",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch A",
+          "fontSize": 9
+        },
+        {
+          "text": "Guardião",
+          "fontSize": 9
+        },
+        {
+          "text": "Duelista",
+          "fontSize": 9
+        },
+        {
+          "text": "Patch A",
+          "fontSize": 9
+        },
+        {
+          "text": "Atirador",
+          "fontSize": 9
+        }
+      ],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "failedRequests": []
+    }
+  ]
+}
