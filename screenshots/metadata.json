@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T06:50:41.536Z",
+  "generatedAt": "2026-10-07T06:53:27.909Z",
   "baseUrl": "http://127.0.0.1:4173/",
   "captures": [
     {
@@ -10,140 +10,131 @@
       },
       "title": "TFT Comp Evolution — evolução das suas comps",
       "width": 1440,
-      "height": 2420,
+      "height": 2425,
       "viewportWidth": 1440,
       "viewportHeight": 1000,
       "overflow": [],
-      "smallTapTargets": [
-        {
-          "tag": "a",
-          "id": "",
-          "className": "brand",
-          "width": 172,
-          "height": 23,
-          "text": "TFT Comp Evolution"
-        }
-      ],
+      "smallTapTargets": [],
       "tinyText": [
         {
           "text": "DADOS DEMONSTRATIVOS",
           "fontSize": 9
         },
         {
-          "text": "TFT-FIRST · EVOLUÇÃO PESSOAL",
+          "text": "Similaridade de unidades",
           "fontSize": 9
         },
         {
-          "text": "RECORTE",
+          "text": "Similaridade de traits",
           "fontSize": 9
         },
         {
-          "text": "Patch",
+          "text": "Resultado B vs A",
           "fontSize": 9
         },
         {
-          "text": "Composição",
+          "text": "Núcleo mantido",
           "fontSize": 9
         },
         {
-          "text": "EVOLUÇÃO",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Patch C",
-          "fontSize": 9
+          "text": "Shen",
+          "fontSize": 8
         },
         {
-          "text": "Feiticeiro",
-          "fontSize": 9
+          "text": "★",
+          "fontSize": 7
         },
         {
-          "text": "Guardião",
-          "fontSize": 9
+          "text": "Neeko",
+          "fontSize": 8
         },
         {
-          "text": "Místico",
-          "fontSize": 9
+          "text": "★",
+          "fontSize": 7
         },
         {
-          "text": "Patch C",
-          "fontSize": 9
+          "text": "Garen",
+          "fontSize": 8
         },
         {
-          "text": "Feiticeiro",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Guardião",
-          "fontSize": 9
+          "text": "Kennen",
+          "fontSize": 8
         },
         {
-          "text": "Patch C",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Atirador",
-          "fontSize": 9
+          "text": "Lulu",
+          "fontSize": 8
         },
         {
-          "text": "Brutamontes",
-          "fontSize": 9
+          "text": "★",
+          "fontSize": 7
         },
         {
-          "text": "Sentinela",
-          "fontSize": 9
+          "text": "Jinx",
+          "fontSize": 8
         },
         {
-          "text": "Patch B",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Atirador",
-          "fontSize": 9
+          "text": "Ahri",
+          "fontSize": 8
         },
         {
-          "text": "Brutamontes",
-          "fontSize": 9
+          "text": "★",
+          "fontSize": 7
         },
         {
-          "text": "Patch B",
-          "fontSize": 9
+          "text": "Morgana",
+          "fontSize": 8
         },
         {
-          "text": "Guardião",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Duelista",
-          "fontSize": 9
+          "text": "Neeko",
+          "fontSize": 8
         },
         {
-          "text": "Patch B",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Feiticeiro",
-          "fontSize": 9
+          "text": "Shen",
+          "fontSize": 8
         },
         {
-          "text": "Místico",
-          "fontSize": 9
+          "text": "★",
+          "fontSize": 7
         },
         {
-          "text": "Patch A",
-          "fontSize": 9
+          "text": "Garen",
+          "fontSize": 8
         },
         {
-          "text": "Guardião",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Duelista",
-          "fontSize": 9
+          "text": "Kennen",
+          "fontSize": 8
         },
         {
-          "text": "Patch A",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         }
       ],
       "brokenImages": [],
@@ -158,140 +149,131 @@
       },
       "title": "TFT Comp Evolution — evolução das suas comps",
       "width": 390,
-      "height": 4195,
+      "height": 4205,
       "viewportWidth": 390,
       "viewportHeight": 844,
       "overflow": [],
-      "smallTapTargets": [
-        {
-          "tag": "a",
-          "id": "",
-          "className": "brand",
-          "width": 143,
-          "height": 19,
-          "text": "TFT Comp Evolution"
-        }
-      ],
+      "smallTapTargets": [],
       "tinyText": [
         {
-          "text": "TFT-FIRST · EVOLUÇÃO PESSOAL",
+          "text": "Similaridade de unidades",
           "fontSize": 9
         },
         {
-          "text": "RECORTE",
+          "text": "Similaridade de traits",
           "fontSize": 9
         },
         {
-          "text": "Patch",
+          "text": "Resultado B vs A",
           "fontSize": 9
         },
         {
-          "text": "Composição",
+          "text": "Núcleo mantido",
           "fontSize": 9
         },
         {
-          "text": "EVOLUÇÃO",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Patch C",
-          "fontSize": 9
+          "text": "Shen",
+          "fontSize": 8
         },
         {
-          "text": "Feiticeiro",
-          "fontSize": 9
+          "text": "★",
+          "fontSize": 7
         },
         {
-          "text": "Guardião",
-          "fontSize": 9
+          "text": "Neeko",
+          "fontSize": 8
         },
         {
-          "text": "Místico",
-          "fontSize": 9
+          "text": "★",
+          "fontSize": 7
         },
         {
-          "text": "Patch C",
-          "fontSize": 9
+          "text": "Garen",
+          "fontSize": 8
         },
         {
-          "text": "Feiticeiro",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Guardião",
-          "fontSize": 9
+          "text": "Kennen",
+          "fontSize": 8
         },
         {
-          "text": "Patch C",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Atirador",
-          "fontSize": 9
+          "text": "Lulu",
+          "fontSize": 8
         },
         {
-          "text": "Brutamontes",
-          "fontSize": 9
+          "text": "★",
+          "fontSize": 7
         },
         {
-          "text": "Sentinela",
-          "fontSize": 9
+          "text": "Jinx",
+          "fontSize": 8
         },
         {
-          "text": "Patch B",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Atirador",
-          "fontSize": 9
+          "text": "Ahri",
+          "fontSize": 8
         },
         {
-          "text": "Brutamontes",
-          "fontSize": 9
+          "text": "★",
+          "fontSize": 7
         },
         {
-          "text": "Patch B",
-          "fontSize": 9
+          "text": "Morgana",
+          "fontSize": 8
         },
         {
-          "text": "Guardião",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Duelista",
-          "fontSize": 9
+          "text": "Neeko",
+          "fontSize": 8
         },
         {
-          "text": "Patch B",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Feiticeiro",
-          "fontSize": 9
+          "text": "Shen",
+          "fontSize": 8
         },
         {
-          "text": "Místico",
-          "fontSize": 9
+          "text": "★",
+          "fontSize": 7
         },
         {
-          "text": "Patch A",
-          "fontSize": 9
+          "text": "Garen",
+          "fontSize": 8
         },
         {
-          "text": "Guardião",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Duelista",
-          "fontSize": 9
+          "text": "Kennen",
+          "fontSize": 8
         },
         {
-          "text": "Patch A",
-          "fontSize": 9
+          "text": "★★",
+          "fontSize": 7
         },
         {
-          "text": "Atirador",
-          "fontSize": 9
+          "text": "Janna",
+          "fontSize": 8
         }
       ],
       "brokenImages": [],
