@@ -1,4 +1,14 @@
-# TFT Comp Evolution
+# TFT Comp Evolution — Evolução das composições
+
+**Compare composições entre partidas e patches de Teamfight Tactics para observar mudanças de unidades, traits e resultados.**
+
+**MVP:** histórico visual, filtros, tabuleiro 4×7 e comparação entre duas partidas usando dados importados ou demonstrativos.
+
+**Status dos dados:** a documentação descreve um protótipo local, sem integração direta ao backend gamer nesta etapa.
+
+> Diferenças em colocações não demonstram causalidade: patch, itens, lobby, execução e decisões alteram o resultado.
+
+---
 
 Produto TFT-first para entender **como as composições de um jogador evoluem entre partidas e patches**.
 
