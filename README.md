@@ -1,64 +1,43 @@
-# TFT Comp Evolution — Evolução das composições
+<div align="center">
+  <h1>♟️ TFT Comp Evolution</h1>
+  <p><strong>Compare seus tabuleiros de Teamfight Tactics e veja como suas composições evoluem entre partidas.</strong></p>
+  <p><img alt="Status" src="https://img.shields.io/badge/status-MVP%20local-64748b"> <img alt="Dados" src="https://img.shields.io/badge/dados-JSON%20%2F%20demo-2563eb"></p>
+  <p><a href="DATA_CONTRACT.md"><strong>Contrato de dados</strong></a> · <a href="FULLSTACK.md"><strong>Arquitetura</strong></a></p>
+</div>
 
-**Compare composições entre partidas e patches de Teamfight Tactics para observar mudanças de unidades, traits e resultados.**
+## Para que serve?
 
-**MVP:** histórico visual, filtros, tabuleiro 4×7 e comparação entre duas partidas usando dados importados ou demonstrativos.
+O **TFT Comp Evolution** foi criado para identificar o que mudou entre composições: unidades, traits, resultados, arquétipos e patches. A interface apresenta tabuleiros em uma **grade TFT 4 × 7**, com filtros e comparação de duas partidas.
 
-**Status dos dados:** a documentação descreve um protótipo local, sem integração direta ao backend gamer nesta etapa.
+## O que o protótipo oferece
 
-> Diferenças em colocações não demonstram causalidade: patch, itens, lobby, execução e decisões alteram o resultado.
+| Área | Função |
+| --- | --- |
+| Histórico | Lista e filtros por patch ou composição |
+| Tabuleiro | Representação visual de unidades e traits |
+| Comparador | Diferenças entre duas partidas |
+| Métricas | Colocação média e Top 4 da amostra |
+| Dados | Importação de partidas em JSON |
+| Persistência | Estado guardado no navegador |
 
----
+**Atenção:** esta implementação **não consulta automaticamente a Riot API**. Ela usa dados importados ou demonstrativos, que devem estar identificados. O contrato para conectar uma fonte real existe em [DATA_CONTRACT.md](DATA_CONTRACT.md).
 
-Produto TFT-first para entender **como as composições de um jogador evoluem entre partidas e patches**.
+### O que a comparação não prova
 
-**Area:** TFT  
-**Priority:** P2  
-**Queue position original:** #22
+Se uma composição teve melhor colocação que outra, isso **não significa** que a alteração específica causou o resultado. Patch, itens, economia, lobby, estágio e decisões também influenciam cada partida.
 
-## Estado atual
+## Testar localmente
 
-MVP funcional iniciado em 06/10/2026.
+```bash
+git clone https://github.com/HelioConde/tft-comp-evolution.git
+cd tft-comp-evolution
+python -m http.server 8000
+```
 
-- histórico visual de partidas;
-- filtros por patch e composição;
-- colocação média e taxa de Top 4;
-- agrupamento por arquétipo;
-- tabuleiro TFT 4x7;
-- comparação direta entre duas partidas;
-- similaridade de unidades e traits;
-- leitura rápida das mudanças;
-- importação de partidas por JSON;
-- persistência local;
-- dataset demonstrativo claramente identificado;
-- testes automatizados do núcleo;
-- CI com Static QA.
+Abra `http://localhost:8000`. A lógica está em `core.js`, a UI em `app.js` e há testes em `tests/`. O pacote define `npm run screenshots` para captura de interface, mas não há comando `check` declarado no `package.json` desta versão.
 
-## Dados
+## Estado e evolução
 
-O MVP não usa o banco geral dos projetos.
+**MVP local funcional, ainda em validação.** A próxima etapa é integrar dados reais apenas depois de definir fonte, permissões e cobertura, mantendo o fallback demonstrativo explícito.
 
-O destino correto é o banco gamer `zerotwo`. Como ele não está disponível no conector Supabase atual, esta etapa não grava dados em outro banco como fallback.
-
-Veja `DATA_CONTRACT.md` para o contrato que permitirá ligar partidas reais sem reescrever a interface.
-
-## Rodar localmente
-
-Sirva os arquivos com qualquer servidor HTTP estático e abra `index.html`.
-
-## Próxima versão
-
-- conectar partidas reais pós-jogo;
-- autenticação compartilhada com os produtos gamer;
-- assets reais de unidades/itens/augments;
-- comparação de itemização e augments;
-- evolução por patch com mais partidas;
-- link compartilhável de comparação.
-
-## Organização
-
-Prioridades gerais continuam centralizadas em:
-
-https://github.com/HelioConde/ideias-ia-lab
-
-Este repositório contém apenas o produto TFT Comp Evolution.
+Projeto não oficial e independente da Riot Games. Criado por [Hélio Conde](https://github.com/HelioConde).
